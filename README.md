@@ -1,6 +1,6 @@
 # Prédiction de la Qualité et du Site d'Extraction des Phosphates
 
-## 📋 Description
+## Description
 
 Cette application utilise un modèle de machine learning basé sur les **Support Vector Machines (SVM)** pour prédire :
 - 🎯 **Le site d'extraction** des phosphates (Sidi Chennane ou Sidi Daoui)
@@ -60,7 +60,7 @@ L'application se lancera sur `http://localhost:7860` par défaut.
 
 ---
 
-## 📊 Paramètres d'Entrée
+## Paramètres d'Entrée
 
 L'application accepte les 5 paramètres de composition du phosphate :
 
@@ -103,7 +103,7 @@ Voir `requirements.txt` pour les versions spécifiques.
 
 ---
 
-## 💡 Utilisation
+##  Utilisation
 
 ### Via l'Interface Web
 
@@ -115,14 +115,6 @@ Voir `requirements.txt` pour les versions spécifiques.
    - Site d'extraction prédit
    - Qualité du phosphate prédite
 
-### Exemples de Prédiction
-
-L'interface fournit 3 exemples pré-remplis :
-- Phosphate haute teneur : `[25.63, 39.0, 0.6, 3.03, 0.93]`
-- Phosphate composition équilibrée : `[31.24, 32.6, 3.07, 14.22, 0.42]`
-- Phosphate différente composition : `[26.58, 32.86, 0.6, 14.35, 0.84]`
-
----
 
 ## 🎨 Personnalisation
 
@@ -145,7 +137,7 @@ quality_encoding = {'Faible': 0, 'Haute': 1, 'Moyenne': 2}
 
 ---
 
-## 📈 Performance du Modèle
+## Performance du Modèle
 
 | Métrique | Performance |
 |----------|-------------|
@@ -156,7 +148,7 @@ quality_encoding = {'Faible': 0, 'Haute': 1, 'Moyenne': 2}
 
 ---
 
-## 🐛 Dépannage
+## Dépannage
 
 ### Erreur : "Fichiers not found"
 - Vérifiez que tous les fichiers `.pkl*` et `.csv` sont dans le même répertoire que `app.py`
@@ -173,19 +165,8 @@ quality_encoding = {'Faible': 0, 'Haute': 1, 'Moyenne': 2}
 
 ---
 
-## 📝 Licence
 
-Ce projet est utilisé par l'OCP (Office Chérifien des Phosphates).
-
----
-
-## 👤 Contributeurs
-
-- Développement initial et configuration du projet
-
----
-
-## 📧 Support
+##  Support
 
 Pour les questions ou problèmes, veuillez consulter la documentation officielle :
 - [Gradio Documentation](https://www.gradio.app/)
@@ -193,4 +174,3 @@ Pour les questions ou problèmes, veuillez consulter la documentation officielle
 
 ---
 
-**Dernière mise à jour** : 29 Mars 2026
